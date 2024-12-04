@@ -1,0 +1,87 @@
+main { 
+    justify-content: center;
+    display: flex;
+}
+header {
+
+    width: 1103.41px;
+    height: 29.46px;
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+body {
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+
+}
+#menu {
+    width: 234px;
+    height: 15px;
+    top: 37px;
+    left: 1041px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+#menu a {
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-decoration: none;
+}  
+#section_1 {
+    width: 1440px;
+    height: 1093px;
+    margin-top: 130px;
+
+}
+#gets {
+    text-align: center;
+    height: 151px;
+    }
+#gets h1 {
+color: white;
+font-family: Source Sans Pro;
+font-size: 120px;
+font-weight: 700;
+line-height: 150.84px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0%;
+
+} 
+#gets span {
+color: white;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+padding: 23px;
+
+}
+#section_1 button {
+    width: 200px;
+    height: 50px;
+    background: #C271FF;
+    border-radius: 25px;
+    border: none;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: 40px;
+
+}
