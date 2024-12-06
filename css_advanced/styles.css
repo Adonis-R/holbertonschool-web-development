@@ -1,7 +1,4 @@
-main { 
-    justify-content: center;
-    display: flex;
-}
+
 header {
 
     width: 1103.41px;
@@ -15,6 +12,7 @@ body {
     background-image: url(./assets/background.png);
     background-repeat: no-repeat;
     width: 1440px;
+    margin: 0px;
 
 }
 #menu {
@@ -69,14 +67,14 @@ padding: 23px;
 
 }
 #section_1 button {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     background: #C271FF;
     border-radius: 25px;
     border: none;
     font-family: Source Sans Pro;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 20px;
     text-align: center;
     text-underline-position: from-font;
@@ -84,4 +82,56 @@ padding: 23px;
     color: white;
     margin-top: 40px;
 
+}
+#block_2 h2 {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 250px;
+    
+}
+#span_1 {
+    font-weight: 700;
+    color: #C271FF;
+}
+#span_2 {
+    font-family: Source Sans Pro;
+font-size: 32px;
+font-weight: 300;
+line-height: 40.22px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+#pros {
+margin:75px 215px;
+}
+#quote{
+
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+}
+#video {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
